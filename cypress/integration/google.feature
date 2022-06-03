@@ -1,7 +1,8 @@
 Feature: Google test
     Background:
         Given I am on the page https://www.google.fr/
-        When I click on the button "J'accepte"
+        When I click on the button "Tout accepter" if it exists
+        When I click on the button "J'accepte" if it exists
 
     Scenario: Go to google, see the image
         Then I should have an image with alt "Google"
