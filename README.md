@@ -2,7 +2,7 @@
 Cypress + Cucumber test suite
 
 ## Requirements
-- Node.js > 16
+- Node.js >= 16
 
 ## Setup
 - `npm install`
