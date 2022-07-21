@@ -1,6 +1,11 @@
 # cypress-tooling
 Cypress + Cucumber test suite
 
+## Purpose of this repository
+The aim of this repository is to help project members write end to end tests in an easier way, even if the person does not have a technical background. This project uses [Cucumber](https://cucumber.io/) and the Gherkin language syntax to let people write tests in a natural language, without code. It is transcribed into code with helper functions that the developers can use and extend for re-use purposes.
+
+We can break down tests in features that will contain multiple scenarios with the `Given...When...Then` syntax. The developers can match the syntax in step definition files to choose what code to execute when we encounter a specific sentence. It supports the use of parameters in the sentence.
+
 ## Setup
 ### Requirements
 - Node.js >= 16
