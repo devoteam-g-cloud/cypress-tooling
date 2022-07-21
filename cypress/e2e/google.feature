@@ -10,4 +10,4 @@ Feature: Google test
     Scenario: Perform a query
         When I type "Devoteam" on the input named "q"
         When I click on the button "Recherche Google"
-        Then I should see a list of 8 markups with selector "#rso .tF2Cxc"
+        Then I should see a list of 7 markups with selector "#rso .tF2Cxc"
